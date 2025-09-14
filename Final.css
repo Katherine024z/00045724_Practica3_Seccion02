@@ -1,0 +1,70 @@
+:root {
+    --azul: #2795de;
+    --azul-hover: #266d9d;
+    --fondo: #fcf4f4;
+    --negro: #000000;
+}
+
+.Compras {
+    width: 30%;
+    margin: 50px;
+    padding: 50px;
+    background: var(--fondo);
+    border-radius: 20px;
+    animation: animacion 2s ease-in-out;
+    animation-delay: 1s;
+}
+
+@keyframes animacion {
+    from { transform: translateY(-100px); 
+        opacity: 0; 
+    } to { 
+        transform: translateY(0); 
+        opacity: 1; 
+    }
+}
+
+h1 {
+    color: var(--negro);
+    margin-bottom: 15px;
+}
+
+.Pago a {
+    color: var(--azul);
+    font-weight: bold;
+}
+
+.Pago a:hover {
+    text-decoration: underline;
+}
+
+.imagen {
+    margin: 20px auto;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: var(--negro);
+    text-align: left;
+}
+
+.boton {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.boton button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    background: var(--azul);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton button:hover {
+    background: var(--azul-hover);
+}
