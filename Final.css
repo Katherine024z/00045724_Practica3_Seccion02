@@ -5,7 +5,7 @@
     --negro: #000000;
 }
 
-.Compras {
+.shopping-cart {
     width: 30%;
     margin: 50px;
     padding: 50px;
@@ -24,14 +24,14 @@
     }
 }
 
-h1 {
+h2 {
     color: var(--negro);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .Pago a {
     color: var(--azul);
-    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .Pago a:hover {
@@ -42,19 +42,12 @@ h1 {
     margin: 20px auto;
 }
 
-h3 {
-    margin-top: 10px;
-    font-size: 1.1rem;
-    color: var(--negro);
-    text-align: left;
-}
-
-.boton {
+.btn-pay {
     margin-top: 20px;
     text-align: center;
 }
 
-.boton button {
+.btn-pay button {
     padding: 10px 30px;
     border: none;
     border-radius: 25px;
@@ -65,6 +58,6 @@ h3 {
     cursor: pointer;
 }
 
-.boton button:hover {
+.btn-pay button:hover {
     background: var(--azul-hover);
 }
